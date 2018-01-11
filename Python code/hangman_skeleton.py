@@ -66,6 +66,3 @@ while game_done == False:
 
 # ALL DONE!!!
 # try playing the game!
-
-
-
