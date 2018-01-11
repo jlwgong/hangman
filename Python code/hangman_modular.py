@@ -1,4 +1,6 @@
 # Hangman script with modularization
+
+# Import the random library
 import random
 
 def get_secret_word():
