@@ -28,7 +28,7 @@ def isPrime(number):
 
 
 # print out all prime numbers in range
-def get_prime_numbers(upper_range):
+def print_prime_numbers(upper_range):
 
     # loop over all numbers in the given range
     for i in range(1, upper_range):
