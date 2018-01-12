@@ -2,7 +2,7 @@
 
 
 # Have the player enter his/her name
-name = input("Please enter your name: ")
+name = raw_input("Please enter your name: ")
 
 print("Hello", name, ", let's play hangman!")
 print("")
@@ -38,7 +38,7 @@ while game_done == False:
     letter_found = False
 
     # Get the guessed letter from the player
-    guess = input("Guess a letter: ")
+    guess = raw_input("Guess a letter: ")
 
     # Tell the player what they have already guessed
     if guess not in guesses:
