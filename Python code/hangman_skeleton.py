@@ -15,8 +15,8 @@
 #   Hint: use a for loop and a list
 
 
-# Create a version of the secret word that the player has already guessed
-secret_word_revealed = ""
+# Record which letters have already been guessed
+guesses = ""
 
 
 # Create main loop of the game
